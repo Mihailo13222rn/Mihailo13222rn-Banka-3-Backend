@@ -18,6 +18,8 @@ public class PortfolioEntryDto {
 
     private Long id;
 
+    private Long listingId;
+
     private String securityName;     // listing.name
     private String ticker;           // listing.ticker
     private ListingType type;        // npr. STOCK, OPTION...
@@ -29,6 +31,7 @@ public class PortfolioEntryDto {
     private Integer publicAmount;
     private Boolean inTheMoney;      // samo za opcije
     private Boolean used;            // samo za opcije
+
 
 
 }
